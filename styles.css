@@ -1,0 +1,89 @@
+/* styles.css */
+/* This is the main style page for the rest of the pages! Using NMSU colors for consistency and a modern look. */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Bold black background for high contrast */
+    color: white; /* White text for clarity */
+    line-height: 1.6; /* Improves readability */
+}
+
+header {
+    background-color: maroon; /* NMSU maroon */
+    color: white;
+    padding: 20px 10px; /* Larger padding for better spacing */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for header */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem; /* Slightly larger for modern styling */
+}
+
+main {
+    padding: 40px 20px; /* Added padding for centered alignment */
+    text-align: center;
+}
+
+section {
+    margin-bottom: 40px; /* Larger spacing between sections for better structure */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for a softer look */
+    background: rgba(255, 255, 255, 0.1); /* Subtle background for section separation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem; /* Slightly smaller font for footer text */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2); /* Subtle top shadow for footer */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Increased spacing between menu items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* No extra space after the last item */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px; /* Slightly larger font for better visibility */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Gold hover effect for links */
+}
+
+section p {
+    margin-bottom: 20px; /* Adds spacing below paragraphs */
+    font-size: 1rem; /* Adjusted for readability */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Slight rounding for images */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for emphasis */
+}
